@@ -5,3 +5,13 @@
 .btnClass{
     border: 1px solid black;
 }
+
+.iconClass{
+    position: absolute;
+    top: 70px;
+}
+
+.divImage img{
+    max-height: 490px;
+    width: 360vw;
+}
