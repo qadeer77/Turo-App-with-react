@@ -4,6 +4,7 @@ import Header from './componenets/header/Header';
 import Heder_Button from './componenets/button/Heder_Button';
 import Header_Icon from './componenets/icon/Header_Icon';
 import BannnerImage from './componenets/bannerImage/BannnerImage';
+import Datepeker from './componenets/datepeker/Datepeker';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Heder_Button/>
     <Header_Icon/>
     <BannnerImage/>
+    <Datepeker/>
    </>
   );
 }

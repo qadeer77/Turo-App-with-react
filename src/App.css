@@ -15,3 +15,25 @@
     max-height: 490px;
     width: 360vw;
 }
+
+.fullWidth {
+   width: 95vw; 
+   height: 37vh;
+}
+
+.widt{
+    width: 45%;
+}
+
+.black{
+    background-color: #593CFB;
+}
+
+.endWidth{
+    height: 9vh;
+    width: 98vw;
+}
+
+.input{
+    width: 28vw;
+}
