@@ -32,8 +32,20 @@
 .endWidth{
     height: 9vh;
     width: 98vw;
+    position: absolute;
+    top: 22vh;
 }
 
 .input{
     width: 28vw;
+}
+
+.vl{
+    border-left: 1px solid rgb(129, 125, 125);
+    height: 7.5vh;
+}
+
+.height{
+    height: 3.5vh;
+    width: 15vw;
 }

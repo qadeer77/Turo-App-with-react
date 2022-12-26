@@ -63,7 +63,7 @@ function Datepeker() {
     </div>
 
     {/* end-xtml */}
-    <div className="bg-white hidden md:block sm:hidden absolute top-32 rounded-full left-2 endWidth">
+    <div className="bg-white hidden md:block sm:hidden absolute  rounded-full left-2 endWidth">
       <div>
         <p className="text-sm mt-2 ml-3">where</p>
         <input
@@ -71,6 +71,12 @@ function Datepeker() {
           placeholder="City, airport, address or hotel"
           className="ml-3 input"
         />
+      </div>
+        <div className="vl absolute top-1 left-60"></div>
+        <div className="absolute top-0 left-64">
+        <p className="text-sm mt-2 ml-2">From</p>
+        <DatePicker className="height"/>
+        <TimePicker className="height"/>
       </div>
     </div>
 
