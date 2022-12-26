@@ -45,6 +45,13 @@
     height: 7.5vh;
 }
 
+.vla{
+    border-left: 1px solid rgb(129, 125, 125);
+    height: 7.5vh;
+    position: absolute;
+    left: 62vw;
+}
+
 .height{
     height: 3.5vh;
     width: 15vw;

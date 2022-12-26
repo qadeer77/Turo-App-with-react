@@ -2,6 +2,7 @@ import React from "react";
 import { DatePicker } from "antd";
 import { TimePicker } from "antd";
 import { Button } from 'antd';
+import { FaSistrix } from "react-icons/fa";
 
 function Datepeker() {
   return (
@@ -60,24 +61,6 @@ function Datepeker() {
         <div>
         <Button className="black mt-2 ml-2 w-11/12 h-11" type="primary">Search for cars</Button>
         </div>
-    </div>
-
-    {/* end-xtml */}
-    <div className="bg-white hidden md:block sm:hidden absolute  rounded-full left-2 endWidth">
-      <div>
-        <p className="text-sm mt-2 ml-3">where</p>
-        <input
-          type="text"
-          placeholder="City, airport, address or hotel"
-          className="ml-3 input"
-        />
-      </div>
-        <div className="vl absolute top-1 left-60"></div>
-        <div className="absolute top-0 left-64">
-        <p className="text-sm mt-2 ml-2">From</p>
-        <DatePicker className="height"/>
-        <TimePicker className="height"/>
-      </div>
     </div>
 
     </>
