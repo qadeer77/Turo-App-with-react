@@ -5,6 +5,8 @@ import Heder_Button from './componenets/button/Heder_Button';
 import Header_Icon from './componenets/icon/Header_Icon';
 import BannnerImage from './componenets/bannerImage/BannnerImage';
 import Datepeker from './componenets/datepeker/Datepeker';
+import Heading from './componenets/heading/Heading';
+import Swap from './componenets/Swapper/Swap';
 
 function App() {
   return (
@@ -15,7 +17,10 @@ function App() {
     <Header_Icon/>
     <BannnerImage/>
     <Datepeker/>
+    <Heading/>
+    <Swap/>
    </>
+
   );
 }
 
