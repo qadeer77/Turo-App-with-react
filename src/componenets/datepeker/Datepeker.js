@@ -93,9 +93,9 @@ function Datepeker() {
 
 
     {/* End-HTML */}
-    <div className="bg-white hidden sm:hidden  md:hidden lg:block lg:absolute top-36 left-44 end-width rounded-full">
+    <div className="bg-white hidden xl:hidden sm:hidden  md:hidden lg:block lg:absolute top-36 left-44 widthEnd rounded-full">
     <div>
-        <p className="text-sm mt-1 ml-2">where</p>
+        <p className="text-sm mt-1 ml-3">where</p>
         <input
           type="text"
           placeholder="City, airport, address or hotel"
@@ -105,14 +105,69 @@ function Datepeker() {
       </div>
       <div className="absolute -top-1 datePeker">
         <p className="text-sm mt-2 ml-2">From</p>
-        <DatePicker className="w-32 border-none"/>
-        <TimePicker className="w-32 border-none"/>
+        <DatePicker className="w-28 border-none"/>
+        <TimePicker className="w-28 border-none ml-2"/>
       </div>
       <div className="vla absolute top-1"></div>
     <div className="absolute top-0 timePeker">
         <p className="text-sm mt-1 ml-2">Untill</p>
-        <DatePicker className="w-32 border-none"/>
-        <TimePicker className="w-32 border-none"/>
+        <DatePicker className="w-28 border-none"/>
+        <TimePicker className="w-28 border-none ml-2"/>
+      </div>
+      <div className="radius">
+        <FaSistrix className="iconSearch"/>
+      </div>
+    </div>
+
+    {/* End2-html */}
+    <div className="bg-white hidden lg:hidden sm:hidden xl:block 2xl:hidden  md:hidden lg:absolute top-36 left-44 widthEnd2 rounded-full">
+    <div>
+        <p className="text-sm mt-1 ml-3">where</p>
+        <input
+          type="text"
+          placeholder="City, airport, address or hotel"
+          className="ml-2 inputWidth"
+        />
+        <div className="vl absolute top-1"></div>
+      </div>
+      <div className="absolute -top-1 datePeker2">
+        <p className="text-sm mt-2 ml-2">From</p>
+        <DatePicker className="w-36 border-none"/>
+        <TimePicker className="w-36 border-none ml-2"/>
+      </div>
+      <div className="vla absolute top-1"></div>
+    <div className="absolute top-0 timePeker2">
+        <p className="text-sm mt-1 ml-2">Untill</p>
+        <DatePicker className="w-36 border-none"/>
+        <TimePicker className="w-36 border-none ml-2"/>
+      </div>
+      <div className="radius">
+        <FaSistrix className="iconSearch"/>
+      </div>
+    </div>
+
+
+    {/* End3-html */}
+    <div className="bg-white hidden lg:hidden sm:hidden xl:hidden 2xl:block  md:hidden lg:absolute top-36 left-44 widthEnd2 rounded-full">
+    <div>
+        <p className="text-sm mt-1 ml-3">where</p>
+        <input
+          type="text"
+          placeholder="City, airport, address or hotel"
+          className="ml-2 inputWidth"
+        />
+        <div className="vl absolute top-1"></div>
+      </div>
+      <div className="absolute -top-1 datePeker2">
+        <p className="text-sm mt-2 ml-2">From</p>
+        <DatePicker className="widthBda border-none"/>
+        <TimePicker className="widthBda border-none ml-2"/>
+      </div>
+      <div className="vla absolute top-1"></div>
+    <div className="absolute top-0 timePeker2">
+        <p className="text-sm mt-1 ml-2">Untill</p>
+        <DatePicker className="widthBda border-none"/>
+        <TimePicker className="widthBda border-none ml-2"/>
       </div>
       <div className="radius">
         <FaSistrix className="iconSearch"/>

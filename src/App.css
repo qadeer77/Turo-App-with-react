@@ -33,11 +33,18 @@ body{
   background-color: #593cfb;
 }
 
-.endWidth {
+.widthEnd{
+  width: 80vw;
   height: 9vh;
-  width: 98vw;
   position: absolute;
-  top: 22vh;
+  left: 8vw;
+}
+
+.widthEnd2{
+  width: 79vw;
+  height: 9vh;
+  position: absolute;
+  left: 8vw;
 }
 
 .input {
@@ -66,6 +73,7 @@ body{
   height: 59px;
 }
 
+
 .vl {
   border-left: 1px solid rgb(104, 99, 99);
   position: absolute;
@@ -75,26 +83,44 @@ body{
 
 .vla {
     border-left: 1px solid rgb(104, 99, 99);
-    position: absolute;
-    left: 45vw;
+    position: relative;
+    left: 49.5vw;
+    top: -7vh;
     height: 7vh;
   }
 
 .inputWidth{
     width: 24vw;
+    height: 4vh;
 }
 
 .datePeker{
-    margin-left: 25.5vw;
+    position: absolute;
+    right: 32vw;
 }
 
 .timePeker{
-    margin-left: 46vw;
+    position: absolute;
+    right: 7vw;
+}
+
+.datePeker2{
+  position: absolute;
+  right: 31.5vw;
+}
+
+.timePeker2{
+  position: absolute;
+  right: 7vw;
+}
+
+.widthBda{
+  width: 10.5vw;
 }
 
 .radius{
     position: absolute;
-    left: 67vw;
+    right: 1vw;
     top: 2vh;
     background-color: #593cfb;
     width: 50px;

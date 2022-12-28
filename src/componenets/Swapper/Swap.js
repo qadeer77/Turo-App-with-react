@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 function Swap(props) {
   return (
     <div>
-      <h1 className="font-bold text-base ml-8 mt-10 lg:text-xl lg:mt-16 lg:ml-28 xl:ml-40 md:ml-20 sm:ml-16">
+      <h1 className="font-bold text-base ml-8 mt-10 lg:text-xl lg:mt-16 lg:ml-28 xl:ml-40 md:ml-20 sm:ml-16 2xl:ml-48">
         Browse by make
       </h1>
       <Swiper
